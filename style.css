@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+p{
+  color: #C2C2C2;
+}
+
 span {
   color: #00BFA6;
 }
@@ -33,6 +37,7 @@ nav{
   display: flex;
   justify-content: space-between;
   font-family: 'JetBrains Mono', monospace;
+  color: #C2C2C2;
 }
 
 main{
@@ -54,6 +59,12 @@ ul{
   display: flex;
   gap: 64px;
   list-style-type: none;
+}
+
+ul li:hover{
+  font-weight: bold;
+  scale: 105%;
+  color: #fff;
 }
 
 footer{
